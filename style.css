@@ -1,3 +1,46 @@
-h1{
+/* Základní reset stylů */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tělo stránky */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Hlavní nadpis */
+header h1 {
     text-align: center;
+    color: #2c3e50;
+    background-color: #7cbdc2;
+}
+
+/* Odkaz ve formě tlačítka */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Paticka */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #7f8c8d;
 }
